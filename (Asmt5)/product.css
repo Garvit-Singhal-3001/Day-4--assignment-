@@ -1,0 +1,50 @@
+body {
+  background-color: #f9f9f9;
+  font-family: 'Verdana', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.product-card {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  width: 300px;
+}
+
+.product-card img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.product-card h2 {
+  font-size: 1.5em;
+  margin: 15px 0 10px;
+}
+
+.product-card p {
+  color: red;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.product-card button {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.product-card button:hover {
+  background-color: darkblue;
+}
